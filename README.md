@@ -1,0 +1,2 @@
+Estamos aprendendo sobre o sistema operacional UNIX e tambem aprendendo sobre mais como utilizar os terminais BASH. Com muitas horas de estudos, compreendemos como utilizar os comandos, criar diretórios, navegar por eles, criar arquivos de vários formatos. 
+Agora que acabamos de ver o básico, começamos a nos introduzir no tema GIT, GitHub e Internet, aprendendo um pouco para o que serve, como utilizar, e suas utilidades durante nosso caminho profissional como desenvolvedores.
