@@ -5,4 +5,4 @@ let somaDeTodosOsNumeros = 0;
 for(let index = 0; index < numbers.length; index += 1) { 
     somaDeTodosOsNumeros = somaDeTodosOsNumeros + numbers[index]; 
 } 
-console.log(somaDeTodosOsNumeros)
+console.log(somaDeTodosOsNumeros / 10)
