@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header> <h1>Formulário de inscrição</h1></header>
+    <form method="GET" action="">
+    <label for="nome-input">Nome:</label>
+    <input type="text" name="nome" id="nome-input" minlength="10" maxlength="40" placeholder="Seu nome completo">
+<br>
+    <label for="email-input">Email:</label>
+    <input type="email" name="email" id="email-input" minlength="10" maxlength="50" placeholder="Seu e-mail">
+    <h2>Destino para qual você gostaria de ir:</h2>
+    <label for="opcao1"><input type="radio" name="opcoes" id="opcao1" value="cid">Cidade</label>
+    <label for="opcao2"><input type="radio" name="opcoes" id="opcao2" value="cam">Campo</label>
+    <label for="opcao3"><input type="radio" name="opcoes" id="opcao3" value="cid">Praia</label>
+    <label for="opcao4"><input type="radio" name="opcoes" id="opcao4" value="cid">Montanhas</label>
+    
+    <h3>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip? </h3>
+    <textarea name="text" id="text-input" cols="80" rows="20" maxlength="500"></textarea>
+
+    <h4>Qual a melhor data para realizar sua viagem?</h4>
+    <input type="text" placeholder="dd/mm/aaaa">
+    <br>
+    <label for="concordo1"><input type="checkbox" name="concordo" id="concordo1" value="c1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+    <br>
+    <label for="concordo2"><input type="checkbox" name="concordo" id="concordo2" value="c2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+    <br> <br>
+<!-- 2.Crie um botão para enviar as informações preenchidas. -->
+    <button type="submit" id="submit-btn">Participar do concurso TrybeTrip</button>
+    <button type="button" id="clear-btn">Apagar informações</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
