@@ -19,7 +19,6 @@
     display: flex;
     justify-content: center;
     order: 1;
-
   }
   
   .menu-container {
@@ -28,13 +27,13 @@
     flex-basis: 500px;
     order: 2;
     flex-grow: 1;
+    align-self: center;
   }
   
   .menu-container ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
-
   }
   
   .menu-container li {
