@@ -12,7 +12,6 @@
   .header-container {
     background-color: #5C687C;
     display: flex;
-    
   }
   
   .logo-container {
@@ -20,18 +19,22 @@
     display: flex;
     justify-content: center;
     order: 1;
+
   }
   
   .menu-container {
+    border: 1px solid black;
     display: flex;
     flex-basis: 500px;
     order: 2;
+    flex-grow: 1;
   }
   
   .menu-container ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
+
   }
   
   .menu-container li {
