@@ -68,5 +68,5 @@ function averageAge() {
   const idadeLancamento = books.reduce((acc, book) => (acc + (book.releaseYear - book.author.birthYear)
   ), 0);
   return idadeLancamento / books.length;
-} 
+}
 console.log(averageAge(books));
